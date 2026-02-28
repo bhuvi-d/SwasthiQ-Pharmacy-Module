@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from database import Base, engine
-from routers import dashboard, medicines
+from routers import dashboard, medicines, sales
 
 # Create all tables on startup
 Base.metadata.create_all(bind=engine)
@@ -24,6 +24,7 @@ app.add_middleware(
 
 # Register routers
 app.include_router(medicines.router)
+app.include_router(sales.router)
 app.include_router(dashboard.router)
 
 
