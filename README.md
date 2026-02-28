@@ -4,7 +4,8 @@
 
 A short demonstration of the application — including inventory updates, sales deduction, dashboard updates, and UI interactions — can be viewed here:
 
-[Demo Video Link — to be updated]
+https://youtu.be/FwG7yynRumM
+
 
 **Note:** The backend is hosted on Render's free tier, which spins down after periods of inactivity. The first request may take 30–60 seconds as the server cold-starts. Subsequent requests will respond normally.
 
